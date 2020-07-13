@@ -1,3 +1,3 @@
-#for gulp
-#npm i
-#gulp
+
+
+make default for run
