@@ -22,4 +22,4 @@ run: $(TARGET)
 
 
 default:
-	clang -I include sources/main.c -o main.o && ./main.o
+	gcc -Iinclude -o i sources/main.c sources/helpers.c -o main.o && ./main.o
